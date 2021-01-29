@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Human Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("#btn btn-secondary").click(function(){        
+        $("#form-label").submit(); 
+    });
+});
+$(document).ready(function()
+{
+$('#form-label').ready(function()
+{
+$('#list-group-item').val($('#form-label').val());
+});
+
+});
+</script>
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+              <div class="container-fluid  human-navbar-right">
+                <a class="navbar-brand" href="../index.html">The Human Project</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ourstory.html">Our Story</a>
+                    </li><li class="nav-item">
+                      <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
+          <main class=" human-features-main">
+              <h1 class="display-4 text-center"> Features</h1>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                      <div id="human-feature-form">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="type" class="form-control" id="humantextinput" >
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Your suggestion</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-secondary">Submit</button>
+
+                        </div>
+    
+               
+                  </div>
+                  <div class="col">
+                    <div class="card" style="margin-top: 101px;" >
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item" method="post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus malesuada accumsan. Aenean sodales rutrum magna, aliquam pulvinar orci pharetra ut. In ut velit tempor, tincidunt odio sit amet, feugiat.
+                            <span><br></span>
+                            <span class="badge bg-secondary">Amani,2 sec ago</span>
+                        </li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+             
+          </main>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <footer class="text-center fixed-bottom bg-dark" style="color:white">
+            <p>Copyrights|The Human Project</p>
+          </footer>
+        <script src="" async defer></script>
+    </body>
+</html>
